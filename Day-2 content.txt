@@ -1,0 +1,17 @@
+#Bitwise operators
+0's and 1's
+some operations if u do like dz it wil be faster like compressing the data
+sending data in network to network 0 => false;1 => true
+bitwise AND - &
+bitwise OR - |
+NOT - ~
+XOR - ^
+LEFT SHIFT - <<
+RIGHT SHIFT - >>
+
+#Control/Conditonal
+If
+If else
+Else if
+Else if ladder
+Nested if
