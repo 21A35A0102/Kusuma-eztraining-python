@@ -1,0 +1,35 @@
+Day-3 content
+
+#programs
+append()-adding element at the end
+extend()-adding more than one element
+insert()-adding element at a particular index
+remove()-removes an element
+pop()-removes and returns an element at the given index
+clear()-all elements removed
+index()-returns the index of first matched item
+count()-returns the count of the element
+sort()-sorts the elements in ascending order
+reverse()-reverses the list
+copy()-copies the list into new list
+
+#Set
+unordered
+mutable
+no index
+duplication not allowed
+Set functions
+s.add()-one element
+s.update()-more than one element
+s.dicard()-removes the element from the set
+s.remove()-returns error when element is not present in the set
+
+#Dictionary
+Dictionary contains elements with 2 units keys and values
+Keys must be unique
+d.items()-returns all pairs
+d.update({1:"hi"})-add one or more items
+d.pop()-fetch and remove item
+d.popitem()-fecth and removes recently added item
+d.setdefault(1:"hi")-if the key is not in dict-it will be added or ntng will be done
+[ ]
