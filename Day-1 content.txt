@@ -1,0 +1,54 @@
+Day -1 content
+#INTRO
+Python is famous in the market and it is called as the language of future.
+It supports current technologies and upcoming technolog
+Mediums: Idle-Interpreted development learning environment, Jupyter notebook, Anaconda, Thoni, VS code. python-scripting language
+
+#5.Operators's Precedence and Associativity
+every operator has it's own priority.
+we can use BODMAS rule
+If there is same priority operators present in the expression,evaluation happens left to right except assignment operator(evaluates right to left)  
+
+#.Operators
+1.Arithmetic operators
+addition +
+subtraction -
+multiplication *
+dividion (float) /
+floor division (int) //
+modulus %
+2.Relational/Comparision operators(compares two or more values)
+'>'
+<
+==
+<=
+'>='
+!=
+3.Logical operators
+and
+or
+not
+4.Assignment opeartors
+=
++=
+-=
+*=
+/=
+5.Bitwise operators
+0's and 1's
+
+faster for compressing data
+
+sending data in n/w to n/w
+
+0-1 or True-False or ON-OFF
+
+Bitwise AND
+
+Bitwise OR
+
+NOT
+
+XOR
+
+Left shift and Right shift
