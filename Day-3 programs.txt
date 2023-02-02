@@ -1,0 +1,190 @@
+#Creation of list
+L=[11,6,8.9,"kusuma",[3]]
+print(type(L))
+print(L)
+
+<class 'list'>
+[11, 6, 8.9, 'kusuma', [3]]
+
+#Slicing
+print(L[3])
+print(L[-1])
+print(L[0:5])
+print(L[2:])
+print(L[:-1])
+print(L[::-1])
+
+satya
+[3]
+[11, 6, 8.9, 'kusuma', [3]]
+[8.9, 'satya', [3]]
+[11, 6, 8.9, 'kusuma']
+[[3], 'kusuma', 8.9, 6, 11]
+
+#
+l=[1,3,11,"kusuu",66.6,12,11,"ruchi"]
+print(l)
+l.append(5)
+print(l)
+l.extend(["sahi",7])
+print(l)
+l.insert(2,[])
+print(l)
+l.remove(11)
+print(l)
+l.pop(0)
+print(l)
+l.pop()
+print(l)
+print(l.index("kusuu"))
+l.append(11)
+print(l)
+print(l.count(11))
+l.reverse()
+print(l)
+l1=[1,6,4]
+l1.sort()
+print(l1)
+l1.clear()
+print(l1)
+
+[1, 3, 11, 'kusuu', 66.6, 12, 11, 'ruchi']
+[1, 3, 11, 'kusuu', 66.6, 12, 11, 'ruchi', 5]
+[1, 3, 11, 'kusuu', 66.6, 12, 11, 'ruchi', 5, 'sahi', 7]
+[1, 3, [], 11, 'kusuu', 66.6, 12, 11, 'ruchi', 5, 'sahi', 7]
+[1, 3, [], 'kusuu', 66.6, 12, 11, 'ruchi', 5, 'sahi', 7]
+[3, [], 'kusuu', 66.6, 12, 11, 'ruchi', 5, 'sahi', 7]
+[3, [], 'kusuu', 66.6, 12, 11, 'ruchi', 5, 'sahi']
+2
+[3, [], 'kusuu', 66.6, 12, 11, 'ruchi', 5, 'sahi', 11]
+2
+[11, 'hi', 5, 'kusuu', 11, 12, 66.6, 'ruchii', [], 3]
+[1, 4, 6]
+[]
+
+#programs
+Create a list with 10 items print the elements one by one
+Create a list with 5 float numbers and find and display,sum,avg of the list
+After creating a list with 6 elements from the user,extract only even numbers from the list
+
+#Program 1
+l=[2,4,11,"kusuma",8.6,[],6.9,11,"kusuu",5]
+for i in l:
+  print(i)
+
+2
+4
+11
+kusuma
+8.6
+[]
+6.9
+11
+hi
+5
+
+#program 2
+l1=[1.1,2.2,3.3,4.4,5.5]
+print(sum(l1))
+avg=sum(l1)/len(l1)
+print(avg)
+
+16.5
+3.3
+
+#program 3
+list2=list(map(int,input("enter the numbers:").split()))
+for i in list2:
+  if i%2==0:
+    print(i)
+
+enter the numbers:9 8 7 6 5 4
+8
+6
+4
+
+#
+l=list(map(int,input("enter the numbers in the list:").split(",")))
+prod=1
+sum=0
+for i in l:
+  prod=prod*i
+if prod<750:
+  print("product:",prod)
+else:
+  for i in l:
+    sum=sum+i
+  print("sum:",sum)
+#
+s={1,2,3,4,5,6}
+print(type(s))
+print("set:",s)
+s.add(7)
+print(s)
+s.update([8,9])
+print(s)
+s.discard(2)
+print(s)
+s.discard(10)
+print(s)
+s.remove(4)
+print(s)
+
+<class 'set'>
+set: {1, 2, 3, 4, 5, 6}
+{1, 2, 3, 4, 5, 6, 7}
+{1, 2, 3, 4, 5, 6, 7, 8, 9}
+{1, 3, 4, 5, 6, 7, 8, 9}
+{1, 3, 4, 5, 6, 7, 8, 9}
+{1, 3, 5, 6, 7, 8, 9}
+
+#
+s1={10,20,30}
+s2={11,22,30,40}
+print("s1 union s2:",s1|s2)
+print("s1 intersction s2:",s1&s2)
+print("difference of sets:",s1-s2)
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.difference(s2))
+
+#
+s1 union s2: {20, 22, 40, 10, 11, 30}
+s1 intersction s2: {30}
+difference of sets: {10, 20}
+{20, 22, 40, 10, 11, 30}
+{30}
+{10, 20}
+#
+#Superset
+s1={10,20}
+s2={10,20,30,40}
+s2.issuperset(s1)
+
+True
+
+#symmetric difference
+s1={10,20,44}
+s2={10,20,30,40}
+print(s1^s2)
+print(s1.symmetric_difference(s2))
+
+{40,44,30}
+{40,44,30}
+
+#
+d={1:"kusuu",2:"sai"}
+print(type(dict))
+print("dictionary:",d)
+print(d.keys())
+print(d.values())
+print(d.items())
+
+<class 'type'>
+dictionary: {1: 'kusuu', 2: 'sai'}
+dict_keys([1, 2])
+dict_values(['kusuu', 'sai'])
+dict_items([(1, 'kusuu'), (2, 'sai')])
+
+
+
