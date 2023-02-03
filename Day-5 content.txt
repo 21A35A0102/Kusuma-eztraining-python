@@ -1,0 +1,34 @@
+#Random Module
+r.random()-will return random number between 0.0 and 1.0.it includes 0.0 and excludes 1.0
+r.uniform()-returns random number between range includes the range values
+r.shuffle()
+r.sample(x,2)
+r.choice()
+r.choices(a,k=10)
+r.randint()
+#Calendar
+calendar.calendar()
+calendar.month()
+calendar.setfirstweekday(calendar.WEDNESDAY)
+
+#Datetime
+datetime.datetime.now()
+sv=a.strftime("%Y")
+fv=a.strftime("%Y")
+
+#Functions
+^Classifications
+1 predefined functions
+2 user defined functions
+For code reusability we use functions
+Lets say we want to use a particular concept multiple times in our pgm instead of writing the same code mutliple times we can write it once include that inside a function and can call the function where ever we need it
+
+#Types
+Functions without args without return values
+without args and return values
+with args and return values
+with args and without rreturn values
+
+#Recursive function
+A function which calls itself
+Colab paid products - Cancel contracts here
